@@ -330,10 +330,10 @@
       <!-- Sandwiches -->
       <div class="col-lg-6 menu-item filter-sandwiches">
         <div class="menu-content">
-          <a href="#">Chicken Kabob Sandwich</a><span>Sandwich Only: $10.99, Combo: $14.99</span>
+          <a href="#">Chicken Kabob Sandwich</a><span>Sandwhich: $10.99, Combo: $14.99</span>
         </div>
         <div class="menu-content">
-          <a href="#">Beef & Lamb Shawarma</a><span>Sandwich Only: $10.99, Combo: $14.99</span>
+          <a href="#">Beef & Lamb Shawarma</a><span>Sandwhich: $10.99, Combo: $14.99</span>
         </div>
       </div>
 
@@ -574,15 +574,63 @@
           </div>
     
           <div class="col-lg-8 mt-5 mt-lg-0">
-    
-            <!-- Optional: Add your contact form here -->
-    
+  
+            <form
+            action="https://formsubmit.co/contact@aralsolutions.com"
+            method="POST"
+            style="padding: 4px;"
+          >
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                name="full-name"
+                id="full-name"
+                placeholder="Full Name"
+                class="form-control"
+                style="padding: 4px; margin-bottom: 10px;"
+                required
+              />
+            </div>
+          
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                class="form-control"
+                style="padding: 4px; margin-bottom: 10px;"
+                required
+              />
+            </div>
+          
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                rows="5"
+                name="message"
+                id="message"
+                placeholder="Message..."
+                class="form-control"
+                style="padding: 4px; margin-bottom: 10px;"
+                required
+              ></textarea>
+            </div>
+          
+            <div id="send-btn" style="text-align: right;">
+              <button type="submit" class="btn-transparent-orange">SEND</button>
+            </div>
+          </form>
+
           </div>
     
         </div>
     
       </div>
-    </section><!-- End Contact Section -->    
+    </section><!-- End Contact Section -->
+
 
   </main><!-- End #main -->
 
